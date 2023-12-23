@@ -1,0 +1,112 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: #def0ff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: white;
+  border-radius: 25px;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+img{
+  height: 30%;
+  margin-bottom: 20px;
+}
+.heading, .des, .inn{
+  margin-bottom: 37px;
+}
+.heading{
+  font-size: 28px;
+  font-family: monospace;
+}
+.des{
+  margin: 0 20px;
+  margin-bottom: 45px;
+}
+.inn{
+  margin: 0 30px;
+  background-color: rgb(229, 233, 252);
+  width: 80%;
+  display: flex;
+  border-radius: 20px;
+  padding: 15px 6px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 45px;
+}
+a{
+  text-decoration: none;
+}
+.an{
+  font-weight: 700;
+}
+.bn1{
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: monospace;
+  padding: 20px 0;
+  border-radius: 20px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 6px 12px 10px 2px rgba(0, 0, 255, 0.344);
+}
+.butt{
+  margin-bottom: 55px;
+}
+h3{
+  color: gray;
+  font-family: monospace;
+  font-size: 23px;
+  font-weight: 700;
+}
+@media only screen and (min-width:450px){
+  .card{
+    height: 350px;
+    width: 200px;
+  }
+  img{
+    margin-bottom: 15px;
+  }
+.heading{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+ .des{
+  font-size: 10px;
+  
+  margin-bottom: 15px;
+ }
+ .an, .num, a{
+  font-size: 10px;
+ }
+ .inn svg{
+
+ }
+ .butt{
+  margin-bottom: 15px;
+ }
+ .bn1{
+  font-size: 13px;
+  padding: 5px 0;
+ }
+ .inn{
+  margin: 0 20px;
+  padding: 0 0;
+    margin-bottom: 15px;
+ }
+}
